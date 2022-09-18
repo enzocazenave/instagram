@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.main-container {
+    width: 414px;
+    background-color: #fff;
+    height: 896px;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-nav_title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav_button {
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.stories-container {
+    display: flex;
+}

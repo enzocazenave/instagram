@@ -42,4 +42,33 @@ body {
 
 .stories-container {
     display: flex;
+    column-gap: 10px;
+    overflow-x: scroll;
+    padding: 0 10px;
+}
+
+.story-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 0
+}
+
+.story-container_username {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.story-container_img {
+    border-radius: 50%;
+    height: 56px;
+    object-fit: cover;
+    outline-offset: 3px;
+    outline: 1px solid rgb(173, 173, 173);
+    width: 56px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

@@ -9,6 +9,8 @@ export const Stories = () => {
             <Story />
             <Story />
             <Story />
+            <Story />
+            <Story />
         </div>
     )
 }

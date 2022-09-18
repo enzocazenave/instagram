@@ -18,7 +18,7 @@ body {
 .main-container {
     width: 414px;
     background-color: #fff;
-    height: 896px;
+    height: 100vh;
     overflow: auto;
     border-radius: 10px;
 }
@@ -149,13 +149,12 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top: 1px solid rgb(194, 194, 194);
-    bottom: 27.5px;
+    bottom: 0;
     display: flex;
     justify-content: space-around;
     padding: 15px;
     position: absolute;
     position: fixed;
-    width: 100%;
     width: 414px;
 }
 

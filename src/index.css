@@ -12,21 +12,27 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000;
+    background-color: rgb(30,30,30);
 }
 
 .main-container {
     width: 414px;
     background-color: #fff;
     height: 896px;
+    overflow: auto;
+    border-radius: 10px;
 }
 
 .main-nav {
-    width: 100%;
+    align-items: center;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 10px;
+    position: fixed;
+    width: 414px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .main-nav_title {
@@ -36,13 +42,14 @@ body {
 .main-nav_button {
     background-color: transparent;
     border: none;
-    margin-left: 15px;
     font-size: 20px;
+    margin-left: 15px;
 }
 
 .stories-container {
-    display: flex;
     column-gap: 10px;
+    display: flex;
+    margin-top: 50px;
     overflow-x: scroll;
     padding: 0 10px;
 }
@@ -65,8 +72,97 @@ body {
     height: 56px;
     object-fit: cover;
     outline-offset: 3px;
-    outline: 1px solid rgb(173, 173, 173);
+    outline: 1px solid rgb(194, 194, 194);
     width: 56px;
+}
+
+.publications-container {
+    overflow-y: auto;
+}
+
+.publication-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.publication-container_profile {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.publication-container_profile__img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.publication-container_profile__username {
+    font-size: 14px;
+}
+
+.publication-container_image {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.publication-container_controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.publication-container_controls__button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    margin-right: 15px;
+}
+
+.publication-container_controls__button:last-child {
+    margin: 0;
+}
+
+.publication-container_interactions {
+    padding: 0px 8px;
+}
+
+.publication-container_interactions__title {
+    font-size: 14px;
+    margin: 7px 0px;
+}
+
+.publication-container_interactions__likes {
+    font-size: 12px;
+}
+
+.publication-container_interactions__date {
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+.footer-container {
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid rgb(194, 194, 194);
+    bottom: 27.5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    width: 414px;
+}
+
+.footer-container_buttons {
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
 }
 
 ::-webkit-scrollbar {

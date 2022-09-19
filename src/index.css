@@ -183,8 +183,9 @@ body {
 .userinfo-container {
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 15px;
 }
 
 .userinfo-container_img {
@@ -199,6 +200,8 @@ body {
 
 .userinfo-container_stats {
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .userinfo-container_stats--stat {

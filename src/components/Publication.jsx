@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const photo = "https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg";
 const publication_img = "https://media.cdn.eldestapeweb.com/eldestape/092022/1663255043093/federer-boca-riquelme-jpg..webp?cw=1280&ch=720&extw=jpg";
 
@@ -9,7 +11,11 @@ export const Publication = () => {
                 <p className="publication-container_profile__username">chikicazenave_</p>
             </div>
 
-            <img className="publication-container_image" src={ publication_img } />
+            <img 
+                className="publication-container_image"
+                src={ publication_img } 
+                onLoad={ () => setLoading(true) }
+            />
 
             <div className="publication-container_controls">
                 <div>

@@ -74,6 +74,12 @@ body {
     outline-offset: 3px;
     outline: 1px solid rgb(194, 194, 194);
     width: 56px;
+    transition: opacity .3s;
+}
+
+.story-container_img:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
 
 .publication-container {
@@ -161,6 +167,8 @@ body {
     border-radius: 10px;
     border: none;
     transition: all .4s;
+    text-decoration: none;
+    color: #000
 }
 
 .footer-container_buttons:hover {

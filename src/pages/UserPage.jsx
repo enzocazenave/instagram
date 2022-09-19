@@ -1,4 +1,4 @@
-import { Footer, Navbar, UserBio, UserDiscovers, UserInfo } from "../components"
+import { Footer, Navbar, UserBio, UserDiscovers, UserFeaturedStories, UserInfo, UserPublications } from "../components"
 
 export const UserPage = () => {
     return (
@@ -7,6 +7,8 @@ export const UserPage = () => {
             <UserInfo />
             <UserBio />
             <UserDiscovers />
+            <UserFeaturedStories />
+            <UserPublications />
             <Footer />
         </div>
     )

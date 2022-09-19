@@ -14,7 +14,6 @@ export const Publication = () => {
             <img 
                 className="publication-container_image"
                 src={ publication_img } 
-                onLoad={ () => setLoading(true) }
             />
 
             <div className="publication-container_controls">

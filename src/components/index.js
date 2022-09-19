@@ -8,3 +8,5 @@ export * from './Footer';
 // user page
 export * from './UserInfo';
 export * from './UserBio';
+export * from './UserDiscovers';
+export * from './UserDiscover';

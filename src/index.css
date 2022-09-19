@@ -251,6 +251,66 @@ body {
     border-radius: 5px;
 }
 
+.userdiscovers-container {
+    padding: 0 15px;
+}
+
+.userdiscovers-container_title {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.userdiscovers-container_title a {
+    text-decoration: none;
+}
+
+.userdiscovers-container_discovers {
+    display: flex;
+    column-gap: 10px;
+    overflow: auto;
+}
+
+.userdiscover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 3px;
+}
+
+.userdiscover-container_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.userdiscover-container_username {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.userdiscover-container_button {
+    width: 100%;
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    background-color: #0095f6;
+    transition: opacity 0.3s;
+}
+
+.userdiscover-container_button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }

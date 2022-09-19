@@ -4,3 +4,7 @@ export * from './Story';
 export * from './Publications';
 export * from './Publication';
 export * from './Footer';
+
+// user page
+export * from './UserInfo';
+export * from './UserBio';
